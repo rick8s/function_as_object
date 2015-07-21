@@ -24,7 +24,15 @@ function divide(num1, num2){
 function usePrevious(num1, num2, x){
   return x(num1, num2);
 }
+/*var result = function usePrevious(num1, num2, x){
+  return x(num1, num2);
+}
 
+
+/*
+  Log the result
+ */
+ /*document.write(result(2,10,multiply));*/
 
 /*
   Log the result
